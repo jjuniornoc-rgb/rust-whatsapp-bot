@@ -1,0 +1,9 @@
+[package]
+name = "rust-whatsapp-bot"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "signal"] }
+dotenvy = "0.15"
+qrcode = "0.14"

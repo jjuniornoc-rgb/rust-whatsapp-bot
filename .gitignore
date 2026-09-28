@@ -1,0 +1,16 @@
+/target
+**/*.rs.bk
+*.bk
+
+# WhatsApp Session / Keys
+session/
+*.session
+
+# Environment & Config
+.env
+discloud.token
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
